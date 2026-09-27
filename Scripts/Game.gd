@@ -967,15 +967,21 @@ const BFDI_CHALLENGES: Array[Dictionary] = [
 ]
 
 const BALDI_CHALLENGES: Array[Dictionary] = [
-	{"name": "Solve the 3rd Notebook", "attributes": [ATTRIBUTE_SMART, ATTRIBUTE_NICE]}, 
+	{"name": "Notebook Speedrun", "attributes": [ATTRIBUTE_ACTIVE, ATTRIBUTE_SELFISH]}, 
 	{"name": "Find the 7th Notebook", "attributes": [ATTRIBUTE_SMART, ATTRIBUTE_SELFISH, ATTRIBUTE_ACTIVE]}, 
-	{"name": "Get into a whirlpool", "attributes": [ATTRIBUTE_ACTIVE, ATTRIBUTE_SELFISH]}, 
-	{"name": "99 Question Test", "attributes": [ATTRIBUTE_SMART, ATTRIBUTE_NICE, ATTRIBUTE_ACTIVE]}, 
-	{"name": "Decompile Baldi's Basics Plus", "attributes": [ATTRIBUTE_SMART]}, 
-	{"name": "Listen to Baldi's Basics the Musical 99 times", "attributes": [ATTRIBUTE_ACTIVE, ATTRIBUTE_ANGRY]}, 
-	{"name": "Find a way out, before Baldi catches you! (Hahahaaaa!!)", "attributes": [ATTRIBUTE_SELFISH, ATTRIBUTE_ACTIVE, ATTRIBUTE_NICE]}, 
-	{"name": "Jump rope 10 times in a row", "attributes": [ATTRIBUTE_SELFISH]}, 
-	{"name": "Brake Baldi's Ruler", "attributes": [ATTRIBUTE_SMART, ATTRIBUTE_ANGRY, ATTRIBUTE_SELFISH, ATTRIBUTE_ACTIVE]}
+	{"name": "Soda Propulsion Race", "attributes": [ATTRIBUTE_ACTIVE, ATTRIBUTE_SMART]}, 
+	{"name": "Detention Breakout", "attributes": [ATTRIBUTE_SMART, ATTRIBUTE_ANGRY, ATTRIBUTE_ACTIVE]}, 
+	{"name": "Sweep the Floor Survival", "attributes": [ATTRIBUTE_ACTIVE, ATTRIBUTE_SELFISH]}, 
+	{"name": "The Staring Contest", "attributes": [ATTRIBUTE_NICE, ATTRIBUTE_SMART]}, 
+	{"name": "Rule Breaker Blitz", "attributes": [ATTRIBUTE_SELFISH, ATTRIBUTE_ACTIVE, ATTRIBUTE_ANGRY]}, 
+	{"name": "Jump Rope", "attributes": [ATTRIBUTE_SELFISH]}, 
+	{"name": "Bus Ride Balance", "attributes": [ATTRIBUTE_ANGRY]}, 
+	{"name": "Chalkboard Tic-Tac-Toe", "attributes": [ATTRIBUTE_SMART, ATTRIBUTE_SELFISH]}, 
+	{"name": "Ruler Dodgeball", "attributes": [ATTRIBUTE_ACTIVE]}, 
+	{"name": "Quarter Retrieval", "attributes": [ATTRIBUTE_ACTIVE, ATTRIBUTE_SELFISH]}, 
+	{"name": "Alarm Clock Defusal", "attributes": [ATTRIBUTE_SMART]}, 
+	{"name": "Schoolhouse Flag Capture", "attributes": [ATTRIBUTE_ACTIVE, ATTRIBUTE_ANGRY]}, 
+	{"name": "The Final Exam", "attributes": [ATTRIBUTE_SMART, ATTRIBUTE_SMART]}
 ]
 
 const CHARACTER_ATTRIBUTES: Dictionary = {
