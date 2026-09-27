@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://b5npp45f2phr4"]
+
+[ext_resource type="Script" uid="uid://bq2m3wrk1gdk3" path="res://Scripts/AdManager.gd" id="1"]
+[ext_resource type="Script" uid="uid://csojjrfu3u3ww" path="res://addons/AdmobPlugin/Admob.gd" id="2"]
+
+[node name="AdManager" type="Node2D" unique_id=1818705882]
+script = ExtResource("1")
+
+[node name="Admob" type="Node" parent="." unique_id=1532969230]
+script = ExtResource("2")
+is_real = true
+max_ad_content_rating = 1
+android_debug_application_id = "ca-app-pub-9517912595304225~9002571592"
+android_real_application_id = "ca-app-pub-9517912595304225~9002571592"
+android_debug_banner_id = ""
+android_debug_interstitial_id = "ca-app-pub-9517912595304225/9478476713"
+android_debug_rewarded_id = "ca-app-pub-9517912595304225/9572645368"
+android_debug_rewarded_interstitial_id = ""
+android_debug_app_open_id = ""
+android_debug_native_id = ""
+android_real_interstitial_id = "ca-app-pub-9517912595304225/9478476713"
+android_real_rewarded_id = "ca-app-pub-9517912595304225/9572645368"
+ios_debug_application_id = "ca-app-pub-9517912595304225~3500300840"
+ios_real_application_id = "ca-app-pub-9517912595304225~3500300840"
+ios_debug_banner_id = ""
+ios_debug_interstitial_id = "ca-app-pub-9517912595304225/9220245392"
+ios_debug_rewarded_id = "ca-app-pub-9517912595304225/2798307270"
+ios_debug_rewarded_interstitial_id = ""
+ios_debug_app_open_id = ""
+ios_debug_native_id = ""
+ios_real_interstitial_id = "ca-app-pub-9517912595304225/9220245392"
+ios_real_rewarded_id = "ca-app-pub-9517912595304225/2798307270"
+remove_interstitial_ads_after_displayed = true
+metadata/_custom_type_script = "uid://csojjrfu3u3ww"

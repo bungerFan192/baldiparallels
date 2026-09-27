@@ -1,0 +1,70 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="BFDI Parallels"
+config/version="26.1.2"
+run/main_scene="uid://claya8tg31xv8"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+boot_splash/bg_color=Color(0.5372549, 1, 1, 1)
+boot_splash/stretch_mode=0
+boot_splash/image="uid://crvllt7jsyubw"
+config/icon="uid://bnd1iqjnang0x"
+
+[autoload]
+
+Ads="*uid://b5npp45f2phr4"
+
+[display]
+
+window/size/viewport_width=1080
+window/size/viewport_height=1920
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=5
+
+[dotnet]
+
+project/assembly_name="BFDI Parallels"
+
+[editor]
+
+movie_writer/movie_file="/Users/jacky/Documents/BFDIParallelsPromo/iPadPreviewOLD.avi"
+movie_writer/fps=30
+
+[editor_overrides]
+
+text_editor/behavior/indent/type=0
+text_editor/behavior/indent/size=4
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/AdmobPlugin/plugin.cfg")
+
+[input_devices]
+
+pointing/emulate_mouse_from_touch=false
+
+[ios]
+
+launch_screen_image_mode="center"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.5372549, 1, 1, 1)

@@ -1,0 +1,34 @@
+GDRE Tools v2.6.4
+Ubuntu 24.04.5 LTS 24.04, NVIDIA GeForce GTX 1650, vulkan
+Opening file: ~/Downloads/GDRE_tools-v2.6.4-linux/com.beefydle.bfdiparallels_6797163362_26.1.2/Payload/BFDI Parallels.app/BFDI Parallels.pck
+Loaded 257 imported files
+Detected Engine Version: 4.7.1
+Detected Bytecode Revision: 4.5.0-stable (ebc36a7)
+Verified 519 files, no errors detected!
+Extracted 519 files, no errors detected!
+Recreating plugin configs...
+Saved project config.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     30
+Scripts not decompiled:                 0
+Imported resources for export session:  257
+Successfully converted:                 257
+Lossy:                                  20
+Rewrote metadata:                       225
+Non-importable conversions:             0
+Not converted:                          0
+Failed conversions:                     0
+-------------
+
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 4.7.1 to edit the project.
+
+*******************************************************************************
+
